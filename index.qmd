@@ -1,0 +1,18 @@
+# Preface {.unnumbered}
+
+Evolutionary Epidemiology of Infectious Diseases (EPI519) with Bill Hanage.
+
+Some themes from students' interests: 
+
+  - How to apply microbiology to epidemiology? 
+  - How to respond to pandemics, both naturally occuring and "engineered" ones?
+  - Just thinking about *evolution* per se is it's own discipline that many are unfamiliar with. 
+  - Pathogen evolution is not like other evolution.
+  - Interest driven by the HIV/AIDS training grant 
+  - Someone's research center is moving towards "Molecular Epidemiology"
+  - Interaction between evolution in the pathogen, host, and environment 
+  - Genomics
+  - Vector-borne diseases
+  - Folks coming from the Biological Sciences in Public Health degree program 
+
+A core motive is to get biologists to care about statistics and to get statisticians to care about biology.

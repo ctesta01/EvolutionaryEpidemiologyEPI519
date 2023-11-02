@@ -1,0 +1,20 @@
+project:
+  type: book
+
+book:
+  title: "EPI519 Evolutionary Epidemiology"
+  author: "Christian Testa"
+  date: "10/24/2023"
+  chapters:
+    - index.qmd
+    - week1/week1.qmd
+    - week2/week2.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
