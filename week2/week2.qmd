@@ -520,3 +520,10 @@ Example: Original SARS may have almost been rescued due to a deletion of ORF8.
 
 ![](images/drug_resistance.png)
 
+One reason is that there already exist large diversity in bacteria.
+
+## One Dose or Two 
+
+![](images/one_dose_or_two.png)
+![](images/one_dose_or_two2.png)
+

@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "EPI519 Evolutionary Epidemiology",
-    "section": "",
-    "text": "Preface\nEvolutionary Epidemiology of Infectious Diseases (EPI519) with Bill Hanage.\nSome themes from students’ interests:\n\nHow to apply microbiology to epidemiology?\nHow to respond to pandemics, both naturally occuring and “engineered” ones?\nJust thinking about evolution per se is it’s own discipline that many are unfamiliar with.\nPathogen evolution is not like other evolution.\nInterest driven by the HIV/AIDS training grant\nSomeone’s research center is moving towards “Molecular Epidemiology”\nInteraction between evolution in the pathogen, host, and environment\nGenomics\nVector-borne diseases\nFolks coming from the Biological Sciences in Public Health degree program\n\nA core motive is to get biologists to care about statistics and to get statisticians to care about biology."
-  },
-  {
-    "objectID": "week1/week1.html",
-    "href": "week1/week1.html",
-    "title": "1  Week 1",
-    "section": "",
-    "text": "2 Final Question\nIs evolution only predictable in retrospect?\nDiscuss examples from infectious disease and describe what we would need to know in advance in order to predict it in advance.\nWhat kind of things would one need to look for to know in advance?\nDetecting sources and rapid response, or “making decisions under uncertainty.”\nThe Eccentric Billionaire Challenge — for pedagogical purposes only; Bill doesn’t approve of Eccentric Billionaires holding purse strings for a lot of reasons.\n1 wealthy donor with $$$$ millions of dollars to fund the evolutionary ID project (R01 type, 5 year project) with the potential to do the most good.\nShort presentations with a 1-page proposal.\nPositive selection: selection for a new adaptive peak. More ‘fit’ things replace the ancestral population, ‘sweeping’ to fixation.\nExamples include resistant bacteria within a person receiving antibiotics, or antigenic drift in Influenza A.\nDiversifying selection: Selection for being different. Rare types frequently have an advantage.\nExamples include antigens, phage receptors.\nBalancing selection: Selection that maintains genotypes at intermediate frequency.\nE.g., from the microbiome. If a bacteria A depends on bacteria B for nutrients and vice versa, then we would expect to find them together.\nPossibly different serotypes for various pathogens.\nExamples: sickle cell genes.\nPurifying selection: Highly conserved genes with very little variation in protein sequence.\nMutants are likely to be less fit, so they are purged by selection. E.g., most protein coding genes are subject to purifying selection.\nWhat kinds of selection does the SARS-CoV-2 spike experience? Most of these, with a possible exception of balancing.\nWhat kinds of selection affect the genetic and phenotypic variation? Almost all positive and purifying selection.\nWe can’t experiment, but we can do case-follow-up.\nWe can also do genetic association tests.\nRelative reproductive success:\nThe change in the frequency of a gene from one generation to the next. Something that tends to reproduce early experiences an advantage (shorter generation time — think Alpha and Delta strains).\nSaid of pneumococcus;\nIt could be that they get into the lungs accidentally as a result of colonizing the nose.\nGetting into the lung is not what they want to do, because it’s a bit of a dead end.\nSaying blood is a niche for these pathogens is a bit like saying the ocean is a niche for humans; some will survive for some time.\nThe nasopharynx is where “pneumos” are evolved to survive and thrive.\nIn fact, a “genetic algorithm” is much faster than taking random samples.\nLimits to adaptation:\nA trade-off with the immune system is that that which protects us can also put us at risk.\nWe’re all descended from something like a fish/shark that didn’t have hearts with as many compartments our hearts do."
-  },
-  {
-    "objectID": "week1/week1.html#some-upcoming-themes",
-    "href": "week1/week1.html#some-upcoming-themes",
-    "title": "1  Week 1",
-    "section": "1.1 Some upcoming themes",
-    "text": "1.1 Some upcoming themes\n\nHow to classify viral agents\nHow one replies to press (kind of like a war-game)\n\nHow do we make decisions in situations with uncertainty\n\n\nGuest lectures from Duncan MacCannell; another guest lecture from Michael Baym\n\n\n\nWhat’s going on in the colored dots figure: a sheet of agar jelly with an increasing gradient of antibiotics, so that we can see how antibiotic resistance evolves."
-  },
-  {
-    "objectID": "week1/week1.html#critical-review",
-    "href": "week1/week1.html#critical-review",
-    "title": "1  Week 1",
-    "section": "1.2 Critical Review",
-    "text": "1.2 Critical Review\n\nEvidence that the paper has been read: a Summary\nEvidence that you have been awake in class: How does it relate to the field?\nEvidence of critical thinking: What is good or bad about the paper? Just because something is published doesn’t mean it’s right.\nEvidence of scientific thinking and progression: What would you do next?\n\nIt’s a sure route to a B- to say “I would like to collect more data.”\nThe first reflection is due just before Thanksgiving (with background in sequencing), and the second is due around the start of December when we should have background in resistance."
-  },
-  {
-    "objectID": "week1/week1.html#why-care",
-    "href": "week1/week1.html#why-care",
-    "title": "1  Week 1",
-    "section": "4.1 Why care?",
-    "text": "4.1 Why care?\nCombination therapy in HIV-1\nEssential to prevent emergence of resistance.\nOne treatment and combo-dual treatments both yielded resistance, but a triple-combination yielded an effective treatment."
-  },
-  {
-    "objectID": "week1/week1.html#evolutionary-ecology",
-    "href": "week1/week1.html#evolutionary-ecology",
-    "title": "1  Week 1",
-    "section": "4.2 Evolutionary Ecology",
-    "text": "4.2 Evolutionary Ecology\nSeeks to explain adaptation at equilibrium, examining the traits that contribute to reproductive success.\nGenetics is largely simplified or ignored. Instead, approaches like optimization and game theory are important.\n\n4.2.1 Example — Evolution of Virulence\nShould you be more virulent or less virulent?\nWhether or not the pathogen depends on the host matters, since if the pathogen can live in the environment.\nAsymptomatic transmission matters.\nIf by being more virulent you are more likely to transmit, that may be selective, even though it may mean less contacts.\nIt depends on the relationship between virulence and transmission."
-  },
-  {
-    "objectID": "week1/week1.html#phylogenetics",
-    "href": "week1/week1.html#phylogenetics",
-    "title": "1  Week 1",
-    "section": "4.3 Phylogenetics",
-    "text": "4.3 Phylogenetics\nFlorida Dentist with HIV"
-  },
-  {
-    "objectID": "week1/week1.html#paleontology",
-    "href": "week1/week1.html#paleontology",
-    "title": "1  Week 1",
-    "section": "4.4 Paleontology",
-    "text": "4.4 Paleontology\nSuggestion that there may have been pneumonic plague that popped up multiple times in the Neolithic."
-  },
-  {
-    "objectID": "week1/week1.html#why-are-there-no-archaeal-pathogens",
-    "href": "week1/week1.html#why-are-there-no-archaeal-pathogens",
-    "title": "1  Week 1",
-    "section": "7.1 Why are there no archaeal pathogens?",
-    "text": "7.1 Why are there no archaeal pathogens?\nSo many students wrote that “things want to be in tune with us,” but that’s just not true. If transmission or virulence confers a replicative advantage, then it’s evolutionarily advantageous!\nEvolutionary interests of horizontally transmitted pathogens do not coincide with their hosts.\nResult: host resistance and parasite virulence.\nSelection does not always produce ideal adaptations, because it works on things that interact."
-  },
-  {
-    "objectID": "week1/week1.html#how-have-we-changed-the-environment",
-    "href": "week1/week1.html#how-have-we-changed-the-environment",
-    "title": "1  Week 1",
-    "section": "7.2 How have we changed the environment?",
-    "text": "7.2 How have we changed the environment?\nHuman actions are continually changing the environment experienced by pathogens.\nDrugs and vaccines can be considered as ecological or evolutionary experiments.\nChildren used to encounter polio very, very young. Some would die. One thing we know, the older people are when they encounter a disease for the first time, the more serious it’s likely to be.\n\n“It has been estimated that vaccination with 7 of the 12 routinely recommended childhood vaccines prevents an estimated 33 000 deaths and 14 million cases of disease in every birth cohort, saves $10 billion in direct costs in each birth cohort, and saves society an additional $33 billion in costs that include disability and lost productivity.” —Zhou et al (2001) Arch Ped Adolesc Med\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5349095/ Increased incidence of adult pneumococcal pneumonia during school holiday periods"
-  },
-  {
     "objectID": "week2/week2.html",
     "href": "week2/week2.html",
     "title": "2  Week 2",
@@ -158,6 +88,83 @@
     "href": "week2/week2.html#review",
     "title": "2  Week 2",
     "section": "4.4 Review",
-    "text": "4.4 Review\nLarger populations adapt more rapidly. Bottlenecks reduce genetic diversity and slow adaptation. The effective population size \\(N_e\\) is the size of an idealized population that would have the same amount of genetic diversity.\nBottlenecks may substantially reduce \\(N_e\\).\nRemember that most zoonoses are weakly transmissible in humans.\n \nEvolutionary rescue is improving the reproductive rate before going extinct.\n\nExample: Original SARS may have almost been rescued due to a deletion of ORF8."
+    "text": "4.4 Review\nLarger populations adapt more rapidly. Bottlenecks reduce genetic diversity and slow adaptation. The effective population size \\(N_e\\) is the size of an idealized population that would have the same amount of genetic diversity.\nBottlenecks may substantially reduce \\(N_e\\).\nRemember that most zoonoses are weakly transmissible in humans.\n \nEvolutionary rescue is improving the reproductive rate before going extinct.\n\nExample: Original SARS may have almost been rescued due to a deletion of ORF8.\n\nOne reason is that there already exist large diversity in bacteria."
+  },
+  {
+    "objectID": "week1/week1.html",
+    "href": "week1/week1.html",
+    "title": "1  Week 1",
+    "section": "",
+    "text": "2 Final Question\nIs evolution only predictable in retrospect?\nDiscuss examples from infectious disease and describe what we would need to know in advance in order to predict it in advance.\nWhat kind of things would one need to look for to know in advance?\nDetecting sources and rapid response, or “making decisions under uncertainty.”\nThe Eccentric Billionaire Challenge — for pedagogical purposes only; Bill doesn’t approve of Eccentric Billionaires holding purse strings for a lot of reasons.\n1 wealthy donor with $$$$ millions of dollars to fund the evolutionary ID project (R01 type, 5 year project) with the potential to do the most good.\nShort presentations with a 1-page proposal.\nPositive selection: selection for a new adaptive peak. More ‘fit’ things replace the ancestral population, ‘sweeping’ to fixation.\nExamples include resistant bacteria within a person receiving antibiotics, or antigenic drift in Influenza A.\nDiversifying selection: Selection for being different. Rare types frequently have an advantage.\nExamples include antigens, phage receptors.\nBalancing selection: Selection that maintains genotypes at intermediate frequency.\nE.g., from the microbiome. If a bacteria A depends on bacteria B for nutrients and vice versa, then we would expect to find them together.\nPossibly different serotypes for various pathogens.\nExamples: sickle cell genes.\nPurifying selection: Highly conserved genes with very little variation in protein sequence.\nMutants are likely to be less fit, so they are purged by selection. E.g., most protein coding genes are subject to purifying selection.\nWhat kinds of selection does the SARS-CoV-2 spike experience? Most of these, with a possible exception of balancing.\nWhat kinds of selection affect the genetic and phenotypic variation? Almost all positive and purifying selection.\nWe can’t experiment, but we can do case-follow-up.\nWe can also do genetic association tests.\nRelative reproductive success:\nThe change in the frequency of a gene from one generation to the next. Something that tends to reproduce early experiences an advantage (shorter generation time — think Alpha and Delta strains).\nSaid of pneumococcus;\nIt could be that they get into the lungs accidentally as a result of colonizing the nose.\nGetting into the lung is not what they want to do, because it’s a bit of a dead end.\nSaying blood is a niche for these pathogens is a bit like saying the ocean is a niche for humans; some will survive for some time.\nThe nasopharynx is where “pneumos” are evolved to survive and thrive.\nIn fact, a “genetic algorithm” is much faster than taking random samples.\nLimits to adaptation:\nA trade-off with the immune system is that that which protects us can also put us at risk.\nWe’re all descended from something like a fish/shark that didn’t have hearts with as many compartments our hearts do."
+  },
+  {
+    "objectID": "week1/week1.html#some-upcoming-themes",
+    "href": "week1/week1.html#some-upcoming-themes",
+    "title": "1  Week 1",
+    "section": "1.1 Some upcoming themes",
+    "text": "1.1 Some upcoming themes\n\nHow to classify viral agents\nHow one replies to press (kind of like a war-game)\n\nHow do we make decisions in situations with uncertainty\n\n\nGuest lectures from Duncan MacCannell; another guest lecture from Michael Baym\n\n\n\nWhat’s going on in the colored dots figure: a sheet of agar jelly with an increasing gradient of antibiotics, so that we can see how antibiotic resistance evolves."
+  },
+  {
+    "objectID": "week1/week1.html#critical-review",
+    "href": "week1/week1.html#critical-review",
+    "title": "1  Week 1",
+    "section": "1.2 Critical Review",
+    "text": "1.2 Critical Review\n\nEvidence that the paper has been read: a Summary\nEvidence that you have been awake in class: How does it relate to the field?\nEvidence of critical thinking: What is good or bad about the paper? Just because something is published doesn’t mean it’s right.\nEvidence of scientific thinking and progression: What would you do next?\n\nIt’s a sure route to a B- to say “I would like to collect more data.”\nThe first reflection is due just before Thanksgiving (with background in sequencing), and the second is due around the start of December when we should have background in resistance."
+  },
+  {
+    "objectID": "week1/week1.html#why-care",
+    "href": "week1/week1.html#why-care",
+    "title": "1  Week 1",
+    "section": "4.1 Why care?",
+    "text": "4.1 Why care?\nCombination therapy in HIV-1\nEssential to prevent emergence of resistance.\nOne treatment and combo-dual treatments both yielded resistance, but a triple-combination yielded an effective treatment."
+  },
+  {
+    "objectID": "week1/week1.html#evolutionary-ecology",
+    "href": "week1/week1.html#evolutionary-ecology",
+    "title": "1  Week 1",
+    "section": "4.2 Evolutionary Ecology",
+    "text": "4.2 Evolutionary Ecology\nSeeks to explain adaptation at equilibrium, examining the traits that contribute to reproductive success.\nGenetics is largely simplified or ignored. Instead, approaches like optimization and game theory are important.\n\n4.2.1 Example — Evolution of Virulence\nShould you be more virulent or less virulent?\nWhether or not the pathogen depends on the host matters, since if the pathogen can live in the environment.\nAsymptomatic transmission matters.\nIf by being more virulent you are more likely to transmit, that may be selective, even though it may mean less contacts.\nIt depends on the relationship between virulence and transmission."
+  },
+  {
+    "objectID": "week1/week1.html#phylogenetics",
+    "href": "week1/week1.html#phylogenetics",
+    "title": "1  Week 1",
+    "section": "4.3 Phylogenetics",
+    "text": "4.3 Phylogenetics\nFlorida Dentist with HIV"
+  },
+  {
+    "objectID": "week1/week1.html#paleontology",
+    "href": "week1/week1.html#paleontology",
+    "title": "1  Week 1",
+    "section": "4.4 Paleontology",
+    "text": "4.4 Paleontology\nSuggestion that there may have been pneumonic plague that popped up multiple times in the Neolithic."
+  },
+  {
+    "objectID": "week1/week1.html#why-are-there-no-archaeal-pathogens",
+    "href": "week1/week1.html#why-are-there-no-archaeal-pathogens",
+    "title": "1  Week 1",
+    "section": "7.1 Why are there no archaeal pathogens?",
+    "text": "7.1 Why are there no archaeal pathogens?\nSo many students wrote that “things want to be in tune with us,” but that’s just not true. If transmission or virulence confers a replicative advantage, then it’s evolutionarily advantageous!\nEvolutionary interests of horizontally transmitted pathogens do not coincide with their hosts.\nResult: host resistance and parasite virulence.\nSelection does not always produce ideal adaptations, because it works on things that interact."
+  },
+  {
+    "objectID": "week1/week1.html#how-have-we-changed-the-environment",
+    "href": "week1/week1.html#how-have-we-changed-the-environment",
+    "title": "1  Week 1",
+    "section": "7.2 How have we changed the environment?",
+    "text": "7.2 How have we changed the environment?\nHuman actions are continually changing the environment experienced by pathogens.\nDrugs and vaccines can be considered as ecological or evolutionary experiments.\nChildren used to encounter polio very, very young. Some would die. One thing we know, the older people are when they encounter a disease for the first time, the more serious it’s likely to be.\n\n“It has been estimated that vaccination with 7 of the 12 routinely recommended childhood vaccines prevents an estimated 33 000 deaths and 14 million cases of disease in every birth cohort, saves $10 billion in direct costs in each birth cohort, and saves society an additional $33 billion in costs that include disability and lost productivity.” —Zhou et al (2001) Arch Ped Adolesc Med\n\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5349095/ Increased incidence of adult pneumococcal pneumonia during school holiday periods"
+  },
+  {
+    "objectID": "week2/week2.html#one-dose-or-two",
+    "href": "week2/week2.html#one-dose-or-two",
+    "title": "2  Week 2",
+    "section": "4.5 One Dose or Two",
+    "text": "4.5 One Dose or Two"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EPI519 Evolutionary Epidemiology",
+    "section": "",
+    "text": "Preface\nEvolutionary Epidemiology of Infectious Diseases (EPI519) with Bill Hanage.\nSome themes from students’ interests:\n\nHow to apply microbiology to epidemiology?\nHow to respond to pandemics, both naturally occuring and “engineered” ones?\nJust thinking about evolution per se is it’s own discipline that many are unfamiliar with.\nPathogen evolution is not like other evolution.\nInterest driven by the HIV/AIDS training grant\nSomeone’s research center is moving towards “Molecular Epidemiology”\nInteraction between evolution in the pathogen, host, and environment\nGenomics\nVector-borne diseases\nFolks coming from the Biological Sciences in Public Health degree program\n\nA core motive is to get biologists to care about statistics and to get statisticians to care about biology."
   }
 ]
