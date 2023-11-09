@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>EPI519 Evolutionary Epidemiology - 3&nbsp; Week 3</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../week2/week2.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">EPI519 Evolutionary Epidemiology</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week1/week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week2/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week3/week3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sequences-and-trees" id="toc-sequences-and-trees" class="nav-link active" data-scroll-target="#sequences-and-trees"><span class="toc-section-number">4</span>  Sequences and Trees</a></li>
+  <li><a href="#making-a-tree" id="toc-making-a-tree" class="nav-link" data-scroll-target="#making-a-tree"><span class="toc-section-number">5</span>  Making a Tree</a>
+  <ul class="collapse">
+  <li><a href="#likelihood-and-trees" id="toc-likelihood-and-trees" class="nav-link" data-scroll-target="#likelihood-and-trees"><span class="toc-section-number">5.1</span>  Likelihood and Trees</a></li>
+  </ul></li>
+  <li><a href="#using-sequence-data-in-epidemiology-putting-trees-to-work" id="toc-using-sequence-data-in-epidemiology-putting-trees-to-work" class="nav-link" data-scroll-target="#using-sequence-data-in-epidemiology-putting-trees-to-work"><span class="toc-section-number">6</span>  Using sequence data in epidemiology – putting trees to work</a>
+  <ul class="collapse">
+  <li><a href="#trees-and-the-law" id="toc-trees-and-the-law" class="nav-link" data-scroll-target="#trees-and-the-law"><span class="toc-section-number">6.1</span>  Trees and the Law</a></li>
+  <li><a href="#morals-for-evolutionary-epidemiology" id="toc-morals-for-evolutionary-epidemiology" class="nav-link" data-scroll-target="#morals-for-evolutionary-epidemiology"><span class="toc-section-number">6.2</span>  Morals for Evolutionary Epidemiology</a></li>
+  <li><a href="#draft-genomes" id="toc-draft-genomes" class="nav-link" data-scroll-target="#draft-genomes"><span class="toc-section-number">6.3</span>  Draft Genomes</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="sequences-and-trees" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Sequences and Trees</h1>
+<p>What are sequences and trees useful for in evolutionary epidemiology?</p>
+<ul>
+<li>Prediction capabilities</li>
+<li>Determining is it a point-source, is everybody getting the same virus</li>
+<li>Reconstructing transmission events</li>
+<li>Seeing what evolution has happened outside human hosts</li>
+<li>To see if a pathogen is completely new or related to something else</li>
+<li>Looking for antimicrobial resistance</li>
+<li>Inferring timing of a potential spillover event</li>
+</ul>
+<p>Consistent rates in transcriptase, evolution rates, typically at the species level.</p>
+<ul>
+<li>Can be used to identify groups of related strains which are particularly dangerous</li>
+<li>Can identify the source of an epidemic</li>
+<li>Can be used to identify residues under selection</li>
+<li>Can discriminate between hypotheses e.g., did Europeans carry Hepatitis B to the New World, or bring it back with them</li>
+<li>Can estimate transmission rates</li>
+</ul>
+<p>We can figure out what genes are under selection pressure.</p>
+<p>How might you figure out how things are related?</p>
+<ul>
+<li>Distances measured based on nucleotides</li>
+<li>Phenotypic similarity</li>
+<li>Serotyping; do they activate the same antibodies?</li>
+</ul>
+<p>Haemophelus influenzae is a bacterium named because they thought it caused flu.</p>
+<p>Andrew Rambaut teaches this by having classes collect specimen, classify them based on how they look, and then they sequence them.</p>
+<p><em>Plastic bag clip discovered in partial colectomy accompanying proposal for phylogenic plastic bag clip classification</em></p>
+<p>“<em>Toxodenta</em>, found incidentally 3 cm …”</p>
+<p><a href="https://www.nature.com/articles/nature02029" class="uri">https://www.nature.com/articles/nature02029</a></p>
+<p><img src="images/bag_clip.jpg" class="img-fluid"></p>
+<p>The only figure in <em>The Origin of Species</em></p>
+<p><img src="images/origin_tree.gif" class="img-fluid"></p>
+<p><img src="images/language.png" class="img-fluid"></p>
+<p><img src="images/trees.png" class="img-fluid"></p>
+<p><img src="images/superkingdoms.png" class="img-fluid"></p>
+<p><img src="images/within_species.png" class="img-fluid"></p>
+<p><img src="images/outbreak_tree.png" class="img-fluid"></p>
+<p><img src="images/alignment.png" class="img-fluid"></p>
+<p><img src="images/alignment1.png" class="img-fluid"></p>
+<p><img src="images/alignment2.gif" class="img-fluid"></p>
+<p><img src="images/alignment3.png" class="img-fluid"></p>
+<p>What creates differences between sequences in an alignment?</p>
+<ul>
+<li>Insertions/Deletions</li>
+<li>Recombinations</li>
+<li>Translocation</li>
+<li>Point-mutation</li>
+<li>Inversion</li>
+<li>Data reading error/Artifacts
+<ul>
+<li>Incomplete sequence</li>
+</ul></li>
+<li>Alignment errors</li>
+</ul>
+<p>His list:</p>
+<ul>
+<li>Mutations</li>
+<li>Indels</li>
+<li>Recombination</li>
+<li>Errors in raw sequence data</li>
+<li>Errors in bioinformatic processing</li>
+<li>Errors in alignment</li>
+<li>You</li>
+</ul>
+<p>Hanage’s Second Law: Anything you discover that is extremely novel, exciting, is almost certainly wrong.</p>
+<p>Are all changes equally likely to be observed? Why?</p>
+<p>No, because a lot of amino acids can be produced in lots of ways, so you can have different genes (where there’s no selection pressure against it) that can code for the same amino acid.</p>
+<p>Also, no, because of different levels of selection.</p>
+<p><img src="images/nucleotide_changes.png" class="img-fluid"></p>
+<p>There is a very strong bias towards preserving the bias. You cannot weight transitions the same as transversions in a distance metric.</p>
+<p><img src="images/gene_structure.jpg" class="img-fluid"></p>
+<p><img src="images/genetic_code.png" class="img-fluid"></p>
+<p>For many of these triplets, the third nucleotide has no effect in what is coded.</p>
+<p>Imagine comparing the ratio of synonymous to non-synonymous change – dN/dS. What does it mean if this is small? And if it is large?</p>
+<p>More synonymous than non-synonymous change is associated with purifying change, and vice versa.</p>
+<ul>
+<li>Because mutations accumulate with time, we can use trees for dating</li>
+<li>With infectious diseases we can make use of ‘measurably evolving populations’ for this</li>
+<li>Sample over time, and plot branch length against time of isolation</li>
+</ul>
+<p>Work by Korber et al 2000</p>
+<p><img src="images/hiv_origin.jpeg" class="img-fluid"></p>
+<p><img src="images/mpox_seqs.png" class="img-fluid"></p>
+<p><img src="images/regression_on_diversity.png" class="img-fluid"></p>
+<p><img src="images/guardian_article.png" class="img-fluid"></p>
+<p>The dN/dS ratio is often larger when comparing more closely related things. Especially evident with epidemiologic data, where they may share an ancestor a few years ago. Why?</p>
+<ul>
+<li>Ecologic niches</li>
+<li>Also it takes time to weed out mutations with negative impact</li>
+</ul>
+<p>Genetic drift</p>
+<p>Time wasn’t enough to weed out the bad non-synonymous mutations.</p>
+<p>Answer: Incomplete purifying selection.</p>
+<p>We never see mutations that are incredibly lethal to the species, but we can see mutations that are somewhat or close to lethal to the species.</p>
+<p><img src="images/evolutionary_rate_SARS.png" class="img-fluid"></p>
+<p><img src="images/dnds.png" class="img-fluid"></p>
+<p>John Maynard Smith is in Bill’s intellectual lineage;</p>
+<p>His address is given as Haldane’s Right Hand Side — Haldane was his advisor.</p>
+</section>
+<section id="making-a-tree" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Making a Tree</h1>
+<p>Group the most similar together (smallest distance) are grouped together at an additional node.</p>
+<p>Continue to add sequences until none are left.</p>
+<p>An iterative process, where we start by joining the closest, then the next closest, etc., etc.,</p>
+<p>But we need to weight the process by a substitution model.</p>
+<p>Such clustering algorithms:</p>
+<ul>
+<li>Are computationally simple and fast</li>
+<li>Give one tree</li>
+<li>May obscure conflicting signals in the data</li>
+<li>Give no means of comparing hypotheses</li>
+</ul>
+<section id="likelihood-and-trees" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="likelihood-and-trees"><span class="header-section-number">5.1</span> Likelihood and Trees</h2>
+<p>Likelihood differs from probability in that it assesses how likely data are, given a hypothesis.</p>
+<p>It says nothing about how probable the hypothesis is, just the chances that it will give rise to the data if it is true.</p>
+<p>We can start with a sequence and search the space of possible trees and substitution models to find those that make the sequence data the most likely.</p>
+<p>We would start by looking for the tree. That tree is then given a score for how likely it is.</p>
+<p>After fitting the tree, then we look in the parameter space for the substitution model that improves the likelihood measure.</p>
+<p>Then go back and forth, iteratively.</p>
+<p>This allows for the comparison of resulting phylogenies and substitution models with others in a quantifiable way.</p>
+<p>In conclusion:</p>
+<ul>
+<li>Rid yourself of the idea of one tree</li>
+<li>Trees are like calculus — you get better at interpreting them by looking at a lot of them</li>
+<li>Software packages for tree building accumulate, but you should think about it using the principles we’ve discussed</li>
+</ul>
+</section>
+</section>
+<section id="using-sequence-data-in-epidemiology-putting-trees-to-work" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Using sequence data in epidemiology – putting trees to work</h1>
+<p><em>Unifying the Epidemiological and Evolutionary Dynamics of Pathogens</em></p>
+<blockquote class="blockquote">
+<p>Bryan T. Grenfell et al.&nbsp;Unifying the Epidemiological and Evolutionary Dynamics of Pathogens.Science303,327-332(2004).DOI:10.1126/science.1090727</p>
+</blockquote>
+<p><img src="images/measles_flu.png" class="img-fluid"></p>
+<p>In theory, influenza needs to evolve every season because immunity is produced in the prior season that <em>can</em> be circumvented, while measles confers “sterilizing immunity.”</p>
+<p>Another difference is the speed of transmission.</p>
+<p>Flu is quite seasonal (loves cold, dry season).</p>
+<p>We used to have measles outbreaks about every two years because it took about that long for more susceptible babies to be born.</p>
+<p><img src="images/measles_flu_hiv_timeseries.png" class="img-fluid"></p>
+<p><img src="images/kingman_1982.png" class="img-fluid"></p>
+<p>Kingman’s Coalescent 1982</p>
+<blockquote class="blockquote">
+<p>Drummond, Measurably evolving populations, Trends in Ecology &amp; Evolution. 2003. <a href="https://www.sciencedirect.com/science/article/pii/S0169534703002167" class="uri">https://www.sciencedirect.com/science/article/pii/S0169534703002167</a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>A. J. Drummond, A. Rambaut, B. Shapiro, O. G. Pybus, Bayesian Coalescent Inference of Past Population Dynamics from Molecular Sequences, Molecular Biology and Evolution, Volume 22, Issue 5, May 2005, Pages 1185–1192, https://doi.org/10.1093/molbev/msi103</p>
+</blockquote>
+<p><img src="images/milestones_in_bacterial_sequencing.png" class="img-fluid"></p>
+<p>from Loman and Pallen, Twenty years of bacterial genome sequencing,</p>
+<blockquote class="blockquote">
+<p>Pybus OG, Rambaut A, Harvey PH. An integrated framework for the inference of viral population history from reconstructed genealogies. Genetics. 2000 Jul;155(3):1429-37. doi: 10.1093/genetics/155.3.1429. PMID: 10880500; PMCID: PMC1461136.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Fraser C, Donnelly CA, Cauchemez S, Hanage WP, Van Kerkhove MD, Hollingsworth TD, Griffin J, Baggaley RF, Jenkins HE, Lyons EJ, Jombart T, Hinsley WR, Grassly NC, Balloux F, Ghani AC, Ferguson NM, Rambaut A, Pybus OG, Lopez-Gatell H, Alpuche-Aranda CM, Chapela IB, Zavala EP, Guevara DM, Checchi F, Garcia E, Hugonnet S, Roth C; WHO Rapid Pandemic Assessment Collaboration. Pandemic potential of a strain of influenza A (H1N1): early findings. Science. 2009 Jun 19;324(5934):1557-61. doi: 10.1126/science.1176062. Epub 2009 May 11. PMID: 19433588; PMCID: PMC3735127.</p>
+</blockquote>
+<p><img src="images/h1n1.png" class="img-fluid"></p>
+<section id="trees-and-the-law" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="trees-and-the-law"><span class="header-section-number">6.1</span> Trees and the Law</h2>
+<p><img src="images/louisiana_v_schmidt.png" class="img-fluid"></p>
+<ul>
+<li>In January 1995, a Lafayette LA nurse tested positive for HIV-1</li>
+<li>She was HIV-negative when giving blood less than a year previously</li>
+<li>All 7 sexual partners reported between 1984 and 1995 were tested and found to be HIV negative</li>
+<li>The patient claimed that she had been deliberately infected by her boyfriend, a gastroenterologist, on Aug 5th 94</li>
+<li>He had injected her with blood from an HIV positive patient, claiming it was a vitamin B12 shot</li>
+<li>The prosecution found that an HIV-1 patient had blood drawn in the doctor’s office on Aug 4th 1994</li>
+</ul>
+<p>Molecular evidence of HIV-1 transmission in a criminal case, Michael L. Metzker, David P. Mindell, Xiao-Mei Liu, +2 , and David M. Hillis, PNAS, 2002 <a href="https://www.pnas.org/doi/10.1073/pnas.222522599" class="uri">https://www.pnas.org/doi/10.1073/pnas.222522599</a></p>
+<p><img src="images/bootstrap_phylo.jpeg" class="img-fluid"></p>
+<p>The boyfriend was convicted, but they appealed.</p>
+<p>The appeal rested on the idea that the idea were not collected “as per an epidemiological investigation” — possibility of contamination.</p>
+<p>Lots of the data came from men who have sex with men — so</p>
+<p>The reason the appeal was thrown out was because the data could have ruled out transmission. They didn’t prove transmission, but it could have supported a null hypothesis (that transmission came from another observed patient).</p>
+<p>Consider short term vs.&nbsp;long term questions.</p>
+<p>For short-term questions such as outbreak investigations, one wants quick data.</p>
+<ul>
+<li>We want to study faster changing parts of the genome, since then it’s very unlikely two sequences are the same unless they’re related.</li>
+</ul>
+<p>For longer term data, we want to study slower changing parts of the genome.</p>
+<ul>
+<li>If things change too quickly, it’s harder to reconstruct the phylogenetic tree.</li>
+</ul>
+<p><img src="images/first_patient.png" class="img-fluid"></p>
+<p>Above is data from the first long-term COVID infected person.</p>
+<ul>
+<li>45yo male</li>
+<li>Severe anti-phospholipid syndrome, history of diffuse alveolar hemorrhage</li>
+<li>Treated with steroids, cyclophosphamide, rituximab, eculizumab</li>
+<li>Admitted with COVID-19 in April</li>
+<li>First SARS-CoV-2 positive on April 10</li>
+<li>Re-admitted in June for repeat shortness of breath</li>
+<li>Whole-genome sequences were obtained for 4/28, 5/5, 6/24, 6/30</li>
+</ul>
+<p><img src="images/first_patient_tree.jpg" class="img-fluid"></p>
+<p><img src="images/immunocompromised_nejm.png" class="img-fluid"></p>
+<p>Shortly after, B.1.1.7 came out and looked like one of these</p>
+</section>
+<section id="morals-for-evolutionary-epidemiology" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="morals-for-evolutionary-epidemiology"><span class="header-section-number">6.2</span> Morals for Evolutionary Epidemiology</h2>
+<p>We want: Consistency, Context, and Clarity (we mean resolution) here.</p>
+<p>Consistency:</p>
+<ul>
+<li>Means that data should be unambiguous and easy to interpret</li>
+</ul>
+<!-- -->
+<ul>
+<li>Methods need to be consistent and standardized</li>
+</ul>
+<p>Clarity:</p>
+<ul>
+<li>If all isolates are exactly the same, we can’t say anything</li>
+</ul>
+<!-- -->
+<ul>
+<li>If all isolates are equally different from one another, we also can’t say anything</li>
+</ul>
+<p>Context:</p>
+<ul>
+<li><p>Can you relate results to the overall pathogen population structure?</p></li>
+<li><p>Do you have enough sampling? Is it biased?</p></li>
+<li><p>(Also metadata on type of disease, location etc)</p></li>
+</ul>
+<p>Consider Pulsed-field gel electrophoresis (PFGE).</p>
+<p>In 2014, this was considered best-in-class:</p>
+<p><img src="images/pfge2.jpg" class="img-fluid"></p>
+<p><img src="images/pfge1.jpg" class="img-fluid"></p>
+<p>People use this because it’s still cheap.</p>
+<p>Rapid Genotyping of Campylobacter coli Strains from Poultry Meat</p>
+<p>Multilocus Sequence Typing (MLST)</p>
+<p><img src="images/mlst.png" class="img-fluid"></p>
+<p>See Maiden et al PNAS 1998</p>
+<p>Can genomic methods unify infectious disease epidemiology?</p>
+</section>
+<section id="draft-genomes" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="draft-genomes"><span class="header-section-number">6.3</span> Draft Genomes</h2>
+<p>Typically we end up with a bunch of short reads.</p>
+<p>Development of an amplicon-based sequencing approach in response to the global emergence of mpox, PLOS Biology,</p>
+<p><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002151" class="uri">https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002151</a></p>
+<p><img src="images/reference_genome.png" class="img-fluid"></p>
+<p>Long read technologies are increasingly used – especially in a ‘hybrid’ approach</p>
+<p><img src="images/longread.png" class="img-fluid"></p>
+<p>When people do this, they assemble short reads into “contigs” (contiguous sections). The fewer the contigs, the better.</p>
+<p><img src="images/ecoli_outbreak.png" class="img-fluid"></p>
+<p><img src="images/ecoli_outbreak2.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Grad YH, Lipsitch M, Feldgarden M, Arachchi HM, Cerqueira GC, Fitzgerald M, Godfrey P, Haas BJ, Murphy CI, Russ C, Sykes S, Walker BJ, Wortman JR, Young S, Zeng Q, Abouelleil A, Bochicchio J, Chauvin S, Desmet T, Gujja S, McCowan C, Montmayeur A, Steelman S, Frimodt-Møller J, Petersen AM, Struve C, Krogfelt KA, Bingen E, Weill FX, Lander ES, Nusbaum C, Birren BW, Hung DT, Hanage WP. Genomic epidemiology of the Escherichia coli O104:H4 outbreaks in Europe, 2011. Proc Natl Acad Sci U S A. 2012 Feb 21;109(8):3065-70. doi: 10.1073/pnas.1121491109. Epub 2012 Feb 6. Erratum in: Proc Natl Acad Sci U S A. 2012 Apr 3;109(14):5547. PMID: 22315421; PMCID: PMC3286951.</p>
+</blockquote>
+<p><a href="https://www.pnas.org/doi/abs/10.1073/pnas.1121491109?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub++0pubmed">https://www.pnas.org/doi/abs/10.1073/pnas.1121491109</a></p>
+<p>Until very recently, we have systematically avoided looking at the diversity within patients in microbiology.</p>
+<blockquote class="blockquote">
+<p>Colin J Worby, Marc Lipsitch, William P Hanage, Shared Genomic Variants: Identification of Transmission Routes Using Pathogen Deep-Sequence Data, <em>American Journal of Epidemiology</em>, Volume 186, Issue 10, 15 November 2017, Pages 1209–1216, <a href="https://doi.org/10.1093/aje/kwx182" class="uri">https://doi.org/10.1093/aje/kwx182</a></p>
+</blockquote>
+<p><img src="images/isnvs.png" class="img-fluid"></p>
+<p>Intrahost single nucleotide variants. iSNVs</p>
+<p>Robyn S Lee, Jean-François Proulx, Fiona McIntosh, Marcel A Behr, William P Hanage (2020) Previously undetected super-spreading of Mycobacterium tuberculosis revealed by deep sequencing eLife 9:e53245</p>
+<blockquote class="blockquote">
+<p>Siddle KJ, Krasilnikova LA, Moreno GK, Schaffner SF, Vostok J, Fitzgerald NA, Lemieux JE, Barkas N, Loreth C, Specht I, Tomkins-Tinch CH, Paull JS, Schaeffer B, Taylor BP, Loftness B, Johnson H, Schubert PL, Shephard HM, Doucette M, Fink T, Lang AS, Baez S, Beauchamp J, Hennigan S, Buzby E, Ash S, Brown J, Clancy S, Cofsky S, Gagne L, Hall J, Harrington R, Gionet GL, DeRuff KC, Vodzak ME, Adams GC, Dobbins ST, Slack SD, Reilly SK, Anderson LM, Cipicchio MC, DeFelice MT, Grimsby JL, Anderson SE, Blumenstiel BS, Meldrim JC, Rooke HM, Vicente G, Smith NL, Messer KS, Reagan FL, Mandese ZM, Lee MD, Ray MC, Fisher ME, Ulcena MA, Nolet CM, English SE, Larkin KL, Vernest K, Chaluvadi S, Arvidson D, Melchiono M, Covell T, Harik V, Brock-Fisher T, Dunn M, Kearns A, Hanage WP, Bernard C, Philippakis A, Lennon NJ, Gabriel SB, Gallagher GR, Smole S, Madoff LC, Brown CM, Park DJ, MacInnis BL, Sabeti PC. Transmission from vaccinated individuals in a large SARS-CoV-2 Delta variant outbreak. Cell. 2022 Feb 3;185(3):485-492.e10. doi: 10.1016/j.cell.2021.12.027. Epub 2021 Dec 23. PMID: 35051367; PMCID: PMC8695126.</p>
+</blockquote>
+<p><a href="https://www.cell.com/cell/fulltext/S0092-8674(21)01490-2" class="uri">https://www.cell.com/cell/fulltext/S0092-8674(21)01490-2</a></p>
+<p>Baize et al 2014 NEJM</p>
+<p><img src="images/paste-15.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-16.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">3 complete genomes from Guinea</figcaption><p></p>
+</figure>
+</div>
+<p>Dudas and Rambaut, Plos Currents Outbreaks 2014</p>
+<p><img src="images/paste-19.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-20.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><img src="images/paste-22.png" class="img-fluid figure-img"></figcaption><p></p>
+</figure>
+</div>
+<p>Different research questions would imply different rationales for how to choose where the root should be.</p>
+<p>E.g., investigating an outbreak vs.&nbsp;investigating the evolution of antimicrobial resistance might imply different approaches to choosing the root location.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../week2/week2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
