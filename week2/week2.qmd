@@ -527,3 +527,21 @@ One reason is that there already exist large diversity in bacteria.
 ![](images/one_dose_or_two.png)
 ![](images/one_dose_or_two2.png)
 
+## Thought for the day 
+
+ * Is it possible to establish surveillance able to
+catch a potentially pandemic zoonosis in time
+to intervene?
+ * Or is it the case that by the time it is common
+enough to get sampled, it’s already too late
+
+## Opa (opacity) genes in Neisseria 
+
+Includes causes of meningitis and gonorrhoea, 
+important for sticking to epithelia. 
+*Phase variable*. 
+
+![](images/opa_genes.png)
+
+![](images/neisseria.png)
+

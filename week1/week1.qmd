@@ -4,6 +4,21 @@ title: Week 1
 
 Before class: Bill was pointing out to me that [Seth Flexman](https://www.cs.ox.ac.uk/people/seth.flaxman/) gave an interesting talk on small area estimation yesterday. 
 
+Main Themes:
+1. Evolution's Cultural and Scientific Impact:
+   - Charles Darwin's evolutionary theory remains pivotal even after a century.
+   - Evolution influences various aspects of biology and culture.
+   - Alt-text for image: "Artistic representation of evolution, symbolizing its complex and transformative nature."
+
+   ![Marco Brambilla, Still of “Evolution (Megaplex),” 2010](images/evolution.jpg)
+
+   2. The Core Concepts of Evolution:
+   - Evolution involves random genetic changes leading to better adaptation and survival.
+   - Key aspects include allele frequency changes and environmental adaptations.
+   - Alt-text for image: "Facsimile of Darwin's notebook showing early thoughts on species evolution."
+
+   ![Darwin's notebook](images/darwins_notebook.png)
+
 Evolution has an outsized cultural impact. 
 
 Darwin's theory of evolution is one of the only theories over 100 years old 
@@ -14,6 +29,17 @@ Darwin's theory of evolution is one of the only theories over 100 years old
 
 > "Nothing in biology makes sense, except in the light of evolution" <br>
 —Theodosius Dobzhansky (1900-1975)
+
+3. Significant Figures and Responses in Evolution:
+   - Theodosius Dobzhansky's quote underscores evolution's foundational role in biology.
+   - A range of experts, including Nick Loman and Siouxsie W, engage in discussions around evolution.
+   - Bill's modern definition of evolution emphasizes allele frequency changes over time.
+
+4. Mechanisms and Requirements of Natural Selection:
+   - Natural selection operates through phenotypic variation, heritability, and reproductive success.
+   - The concept of allele fixation in small populations.
+
+   ![Illustration of the selection cycle, depicting the iterative process of natural selection](images/selection_cycle.png)
 
 Components of evolution: 
 
@@ -88,11 +114,11 @@ Now for something fun, we're going to play Plague Inc.
 
 Guest lectures from Duncan MacCannell; another guest lecture from Michael Baym 
 
-![](images/schedule.png)
+![Class schedule](images/schedule.png)
 
-![](images/maccannell.png)
+![Duncan MacCannell](images/maccannell.png)
 
-![](images/baym.png)
+![Michael Baym](images/baym.png)
 
 What's going on in the colored dots figure: 
 a sheet of agar jelly with an increasing 
